@@ -216,15 +216,21 @@ img { max-width: 100%; display: block; }
 .about__list { margin-bottom: 2rem; }
 .about__list li { padding: 0.55rem 0; color: var(--color-dark); font-weight: 600; }
 .about__image { display: flex; align-items: center; justify-content: center; }
-.about__placeholder {
-  width: 360px; height: 360px;
-  background: linear-gradient(135deg, rgba(47,133,90,0.85) 0%, rgba(72,187,120,0.85) 100%);
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 6rem;
-  color: rgba(255,255,255,0.95);
-  box-shadow: 0 24px 70px rgba(47, 133, 90, 0.22);
+.about__image img {
+  width: 100%;
+  max-width: 460px;
+  border-radius: calc(var(--radius) * 1.1);
+  box-shadow: 0 24px 70px rgba(47, 133, 90, 0.18);
 }
+
+/* === GALLERY === */
+.gallery { padding: 6rem 0; background: linear-gradient(180deg, #f7fff9 0%, #ecfdf5 100%); text-align: center; }
+.gallery__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+.gallery__item { background: var(--color-white); border: 1px solid rgba(47,133,90,0.12); border-radius: calc(var(--radius) * 1.1); padding: 1.5rem; box-shadow: 0 18px 40px rgba(45,55,72,0.06); transition: var(--transition); }
+.gallery__item:hover { transform: translateY(-5px); }
+.gallery__item img { width: 100%; min-height: 220px; object-fit: cover; border-radius: calc(var(--radius) * 0.9); }
+.gallery__item h3 { margin: 1rem 0 0.5rem; font-size: 1.1rem; color: var(--color-dark); }
+.gallery__item p { color: var(--color-gray); line-height: 1.7; }
 
 /* === PROCESS === */
 .process { padding: 6rem 0; background: #ffffff; text-align: center; }
@@ -263,7 +269,7 @@ img { max-width: 100%; display: block; }
   transition: var(--transition);
   color: var(--color-dark);
 }
-..form-group input:focus,
+.form-group input:focus,
 .form-group textarea:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(47,133,90,0.15); }
 .form-group textarea { resize: vertical; }
 .form-feedback { margin-top: 0.75rem; font-size: 0.9rem; text-align: center; }

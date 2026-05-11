@@ -1,0 +1,19 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="48" fill="#F0FFF4"/>
+  <path d="M110 330H630V410H110V330Z" fill="#FFFFFF" stroke="#2F855A" stroke-width="18"/>
+  <path d="M110 240H550V330H110V240Z" fill="#FFFFFF" stroke="#2F855A" stroke-width="18"/>
+  <path d="M550 300H680V390H550V300Z" fill="#2F855A"/>
+  <path d="M550 240L620 240C640 240 660 255 660 280V330H550V240Z" fill="#38A169"/>
+  <circle cx="200" cy="410" r="36" fill="#2F855A"/>
+  <circle cx="200" cy="410" r="20" fill="#ffffff"/>
+  <circle cx="560" cy="410" r="36" fill="#2F855A"/>
+  <circle cx="560" cy="410" r="20" fill="#ffffff"/>
+  <circle cx="680" cy="410" r="36" fill="#2F855A"/>
+  <circle cx="680" cy="410" r="20" fill="#ffffff"/>
+  <rect x="130" y="275" width="190" height="38" rx="16" fill="#E6F9EF"/>
+  <rect x="570" y="255" width="90" height="85" rx="16" fill="#81E6D9"/>
+  <path d="M260 240H480" stroke="#2F855A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M430 240V210C430 196 438 190 455 190H520" stroke="#2F855A" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="110" cy="100" r="70" fill="#A7F3D0" opacity="0.45"/>
+  <circle cx="700" cy="80" r="50" fill="#A7F3D0" opacity="0.45"/>
+</svg>
