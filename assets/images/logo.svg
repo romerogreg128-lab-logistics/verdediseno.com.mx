@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 90" width="370" height="90">
+  <defs>
+    <linearGradient id="leaf1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo base redondeado oscuro -->
+  <path d="M10,78 C4,55 8,28 28,14 C46,2 68,4 80,18 C90,30 88,50 78,64 C66,80 40,88 22,84 Z" fill="#1B4332"/>
+
+  <!-- Hoja 3 - brillante -->
+  <path d="M12,72 C6,52 10,30 28,18 C18,35 16,55 24,68 Z" fill="#22C55E" opacity="0.75"/>
+
+  <!-- Hoja 2 - media -->
+  <path d="M9,76 C3,54 6,28 26,14 C14,32 12,56 20,72 Z" fill="#16A34A" opacity="0.85"/>
+
+  <!-- Hoja 1 - amplia -->
+  <path d="M7,80 C1,56 4,26 24,10 C42,0 66,2 78,16 C62,10 44,12 30,24 C16,36 10,58 18,76 Z" fill="#15803D"/>
+
+  <!-- Cuerpo del camión (blanco) -->
+  <rect x="34" y="22" width="40" height="24" rx="2" fill="white" opacity="0.9"/>
+
+  <!-- Cabina del camión -->
+  <path d="M34,22 L34,46 L48,46 L48,28 Q47,22 41,22 Z" fill="white"/>
+
+  <!-- Parabrisas -->
+  <rect x="36" y="26" width="9" height="10" rx="1.5" fill="#1B4332" opacity="0.45"/>
+
+  <!-- Franja verde en el trailer -->
+  <rect x="48" y="30" width="26" height="5" rx="1" fill="#16A34A" opacity="0.5"/>
+
+  <!-- Ruedas -->
+  <circle cx="42" cy="49" r="5" fill="#1B4332" opacity="0.85"/>
+  <circle cx="64" cy="49" r="5" fill="#1B4332" opacity="0.85"/>
+  <circle cx="42" cy="49" r="2.2" fill="white" opacity="0.7"/>
+  <circle cx="64" cy="49" r="2.2" fill="white" opacity="0.7"/>
+
+  <!-- Sombra suelo -->
+  <ellipse cx="53" cy="57" rx="28" ry="4" fill="#0f2d1a" opacity="0.25"/>
+
+  <!-- Texto "Verde Diseño" -->
+  <text x="102" y="44"
+    font-family="Georgia,'Times New Roman',serif"
+    font-size="31"
+    font-weight="700"
+    fill="#1B4332"
+    letter-spacing="-0.3">Verde Diseño</text>
+
+  <!-- Línea izquierda -->
+  <line x1="102" y1="60" x2="118" y2="60" stroke="#9CA3AF" stroke-width="1.2"/>
+  <!-- Texto LOGISTIC -->
+  <text x="121" y="65"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="11.5"
+    fill="#9CA3AF"
+    letter-spacing="5"
+    font-weight="400">LOGISTIC</text>
+  <!-- Línea derecha -->
+  <line x1="230" y1="60" x2="246" y2="60" stroke="#9CA3AF" stroke-width="1.2"/>
+</svg>

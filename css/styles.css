@@ -760,7 +760,7 @@ img { max-width: 100%; display: block; }
 .clients__quote span { color: var(--color-primary-dark); font-weight: 700; font-size: 0.9rem; }
 
 /* === FOOTER LOGO === */
-.footer__logo-img { height: 44px; width: auto; margin-bottom: 0.75rem; filter: brightness(0) invert(1); }
+.footer__logo-img { height: 44px; width: auto; margin-bottom: 0.75rem; filter: brightness(0) invert(0.85); }
 
 /* === RESPONSIVE === */
 @media (max-width: 1024px) {
